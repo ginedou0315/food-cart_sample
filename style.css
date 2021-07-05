@@ -1,0 +1,43 @@
+h1{
+    font-size: 45px;
+   
+    color: rgb(150, 125, 125);
+    margin-top:30%;
+}
+
+h1 span{
+    color:chocolate;
+}
+section{
+   
+    padding-bottom: 150px;
+}
+.half-width{
+   
+    width:40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.color-font{
+    font-size: 15px;
+    color:rgb(79, 102, 79);
+    font-family:monospace;
+    padding-bottom: 10px;
+}
+.anchor-button{
+    text-decoration: none;
+    background: linear-gradient(45deg, rgb(57, 216, 57), tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
+
+.female-image{
+    width:100%;
+    height:auto;
+  
+    padding-left:10%;
+}
