@@ -2,28 +2,31 @@ h1{
     font-size: 45px;
    
     color: rgb(150, 125, 125);
-    margin-top:30%;
+   
 }
 
-h1 span{
+span{
     color:chocolate;
 }
-section{
+
+
+#home{
+    padding: 70px 0 80px;
    
-    padding-bottom: 150px;
 }
+
 .half-width{
    
-    width:40%;
-    float: left;
+    width:50%;
+    
     margin-left: 5%;
     padding-left: 2%;
 }
 
 .color-font{
-    font-size: 15px;
+    font-size: 20px;
     color:rgb(79, 102, 79);
-    font-family:monospace;
+    font-family: 'Bona Nova', serif;
     padding-bottom: 10px;
 }
 .anchor-button{
@@ -39,5 +42,47 @@ section{
     width:100%;
     height:auto;
   
-    padding-left:10%;
+    padding-left:40%;
+}
+
+#about{
+    background-image: url("../images/about-background.jpg");
+    background-size:cover;
+    padding-bottom: 50px;
+    
+   
+   
+}
+
+.container{
+    display: flex;
+    width: 1130px;
+   align-items: center;
+   
+}
+
+.about-img{
+    width:80%;
+    height:80%;
+}
+
+footer{
+    background-color:black;
+    
+    text-align: center;
+    padding-bottom: 5px;
+    padding-top:10px
+}
+
+footer h2{
+    color:white;
+    font-size: 40px;
+    margin: 0 0 30px;
+}
+
+footer p{
+    font-size: 18px;
+    color:white;
+    margin-bottom: 5%;
+    
 }
