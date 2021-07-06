@@ -45,7 +45,7 @@ span{
 }
 
 #about{
-    background-image: url("../images/about-background.jpg");
+    background-image: url("images/about-background.jpg");
     background-size:cover;
     padding-bottom: 50px;
     
@@ -111,7 +111,7 @@ span{
     padding-bottom:5%;
 }
 #blogs{
-    background-image:  url("../images/about-background2.jpg");
+    background-image:  url("images/about-background2.jpg");
     background-size:cover;
     padding-bottom: 20%;
 }
