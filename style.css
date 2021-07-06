@@ -11,7 +11,7 @@ span{
 
 
 #home{
-    padding: 70px 0 80px;
+    padding: 70px  80px;
    
 }
 
@@ -42,7 +42,7 @@ span{
     width:100%;
     height:auto;
   
-    padding-left:40%;
+    padding-left:20%;
 }
 
 #about{
@@ -57,13 +57,52 @@ span{
 .container{
     display: flex;
     width: 1130px;
+    margin: 0 auto;
    align-items: center;
+   justify-content: space-between;
    
 }
 
 .about-img{
     width:80%;
     height:80%;
+}
+
+.title {
+    text-align:center;
+    padding-bottom: 40px;
+
+}
+.title h2{
+    font-size:45px;
+    color: rgb(150, 125, 125);
+}
+
+#items{
+    padding-bottom:5%
+}
+
+.item-list{
+    width: 30%;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgb(75, 70, 70);
+    margin-top: 40px;
+    padding: 15px;
+    margin-right:30px
+
+
+}
+.item-img img{
+    width: 100%;
+    border-radius: 20px; 
+}
+.item-text h3{
+    text-align:center;
+    font-size: 25px;
+    color:rgb(112, 105, 11);
+}
+.item-text p{
+    font-family: 'Festive', cursive;
 }
 
 footer{
